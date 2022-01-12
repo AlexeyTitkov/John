@@ -1,0 +1,169 @@
+body {
+  overflow-x: hidden;
+  font-family: Heebo;
+}
+.wrapper {
+  width: 1152px;
+  height: 1079px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 285px;
+  height: 47px;
+  margin-top: 27px;
+  padding-right: 60px;
+}
+
+.list-item {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+}
+.shine {
+    color: #FF6464;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.blogs-section {
+  width: 682px;
+  height: 866px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blogs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 152px;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+
+  color: #21243d;
+}
+
+.blog-posts {
+  width: 682px;
+  height: 757px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.content-blog {
+  width: 682px;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+.name-blog {
+  width: 374px;
+  height: 33px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+
+  color: #21243d;
+}
+
+.date-loc-blog {
+  width: 374px;
+  height: 25px;
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #21243d;
+}
+
+.border-blog {
+  width: 0px;
+  height: 21px;
+  border-right: 1px solid;
+  margin-left: 26px;
+}
+
+.loc-blog {
+  margin-left: 26px;
+  color: #8695a4;
+}
+
+.text-blog {
+  width: 682px;
+  height: 72px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #21243d;
+}
+
+.footer {
+  width: 1152px;
+  height: 182px;
+  margin-top: 83px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+.social {
+  width: 232px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.copiright {
+  margin-top: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #21243d;
+}
