@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
 }
 .wrapper {
   width: 1152px;
@@ -32,7 +34,6 @@ nav {
 
   display: flex;
   justify-content: center;
-  font-style: normal;
   font-weight: 500px;
   font-size: 20px;
   line-height: 29px;
@@ -61,7 +62,6 @@ a {
   align-items: center;
   width: 152px;
   height: 60px;
-  font-style: normal;
   font-weight: bold;
   font-size: 44px;
   line-height: 60px;
@@ -95,8 +95,6 @@ a {
 .name-blog {
   width: 374px;
   height: 33px;
-
-  font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 44px;
@@ -108,8 +106,6 @@ a {
   width: 374px;
   height: 25px;
   display: flex;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 26px;
 
@@ -131,8 +127,6 @@ a {
 .text-blog {
   width: 682px;
   height: 72px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
 
@@ -142,7 +136,6 @@ a {
 .footer {
   width: 1152px;
   height: 182px;
-  margin-top: 83px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -158,12 +151,8 @@ a {
 }
 .copiright {
   margin-top: 26px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   text-align: center;
-
   color: #21243d;
 }

@@ -6,11 +6,11 @@ body {
 }
 .wrapper {
   width: 1152px;
-  height: 1352px;
+  height: 2101px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 nav {
   display: flex;
@@ -44,68 +44,22 @@ a {
   text-decoration: none;
   color: #000000;
 }
-
-.works-section {
-  width: 682px;
-  height: 1134px;
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.works-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 152px;
-  height: 60px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: #21243d;
-}
-
-.work-posts {
-  width: 682px;
-  height: 1051px;
-  background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.column-works {
-  width: 682px;
-  height: 1051px;
-  margin-top: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.block-work {
-  width: 682px;
-  height: 230px;
-  border-bottom: 1px solid #e0e0e0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.block-column-work {
-  width: 418px;
-  height: 170px;
+.work-column {
+  margin-top: 78px;
+  width: 681px;
+  height: 1926px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .name-work {
+  width: 506px;
+  height: 100px;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 44px;
+  font-size: 34px;
+  line-height: 50px;
   color: #21243d;
 }
-
 .date-mark-work {
   display: flex;
 }
@@ -136,7 +90,34 @@ a {
 .text-work {
   font-size: 16px;
   line-height: 23px;
+
   color: #21243d;
+}
+.text-work-second-section {
+  width: 677px;
+  height: 158px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.text-work-second-heading-1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.text-work-second-heading-2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  color: #21243d;
+}
+.text-work-second {
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
 }
 
 .footer {
